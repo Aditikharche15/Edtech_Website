@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+		<nav>
+			<div class="logo"><b>WisdomWeb</b></div>
+			<ul>
+				<li><a class="active" href="/index.html">Home</a></li>
+				<li><a href="/portfolio.html">Portfolio</a></li>
+				<li><a href="/review.html">Review</a></li>
+				<li><a href="/programs.html">Programs</a></li>
+				<li><a href="/contact.html">Contact</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><i class="fa-solid fa-magnifying-glass" id="searchIcon"></i></div>
+			<div class="header-icons">
+				<a href="#"></a><i class="fa-regular fa-heart"></i></a>
+
+
+			</div>
+
+			
+			<a class="get-started" href="login.html">Get Started  <span class="icon-container"><i class="fa-solid fa-user"></i></span></a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+
+		
+        
+        <div id="makeitfull">
+	<a href="#review_section"><img src="images/icon/makeitfull.png"></a>
+</div>
+<div class="review">
+	<div class="diffSection" id="review_section">
+		<center><p style="font-size: 40px; padding: 100px; padding-bottom: 40px; color: #2E3D49;">What the Students Say About Us?</p></center>
+	</div>
+	<div class="rev-container">
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/img6.jpg"><p>Benjamin Davies</p>
+				<h6>Java</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					I studied Java Foundations under Rishab Sir. It was a wonderful encounter. The assignments and brainteasers were excellent, as was the entire body of content. There were some interesting yet difficult difficulties. was thoroughly explained anywhere I got stuck. 
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/b2.jpg"><p>Emily Watson</p>
+				<h6>C/C++</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					"C/C++: Time-tested languages offering unparalleled control and performance, essential for mastering the fundamentals of programming."
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/b1.jpg"><p>Oliver Mitchell</p>
+				<h6>Data Science</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					Data Science: Empowering businesses with actionable insights through advanced analytics and machine learning algorithms.
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/b3.jpg"><p>Charlotte Taylor</p>
+				<h6>Python</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					I had never taken a course at Coding Blocks before. I signed up for the entire course after attending the Python course in the winter of 2020 and really enjoying it. With their extensive knowledge of the subject, GST and TA were really helpful in helping us grasp the ideas. Without a doubt, I would suggest this to everyone.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mid1">
+<h2 >They got their dream job.<br> #AageKiSocho to get yours!</h2></div>
+<div class="slide-container swiper">
+    <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="images/b2.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+
+              <div class="card-content">
+                <h2>Elly</h2>
+                <p>Data Science & Analytics</p>
+                <p>18 LPA</p>
+                <button class="button">View More</button>
+              </div>  
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="images/b1.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+
+              <div class="card-content">
+                <h2>Harry</h2>
+                <p>Business Analytics</p>
+                <p>16 LPA</p>
+                <button class="button">View More</button>
+              </div>  
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="images/b3.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+
+              <div class="card-content">
+                <h2>Emerson</h2>
+                <p>Full Stack Developer</p>
+                <p>13 LPA</p>
+                <button class="button">View More</button>
+              </div>  
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="images/humanNotExist1.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+
+              <div class="card-content">
+                <h2>Edward</h2>
+                <p>Machine Learning</p>
+                <p>17 LPA</p>
+                <button class="button">View More</button>
+              </div>  
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="images/humanNotExist2.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+
+              <div class="card-content">
+                <h2>Sophia</h2>
+                <p>Data Science</p>
+                <p>11LPA</p>
+                <button class="button">View More</button>
+              </div>  
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="images/humanNotExist3.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+
+              <div class="card-content">
+                <h2>Emily</h2>
+                <p>Ios Technology </p>
+                <p>19 LPA</p>
+                <button class="button">View More</button>
+              </div>  
+            </div>
+        </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+</div>
+
+<div class="footer-spacing"></div>
+	<footer class="section-p1">
+		<div class="col">
+			<h1>WebWisdom</h1>
+			<h4>Contact</h4>
+			<p><strong>Email:</strong>aditikharche2003@gmail.com</p>
+			<p><strong>Phone:</strong>8788962744</p>
+			<div class="follow">
+				<h4>Follow Us</h4>
+				<div class="iconss">
+					<i class="fa-brands fa-twitter"></i>
+					<i class="fa-brands fa-facebook"></i>
+					<i class="fa-brands fa-instagram"></i>
+					<i class="fa-brands fa-youtube"></i>
+				</div>
+			</div>
+			
+		</div>
+		<div class="col">
+			<h4>About</h4>
+			<a href="#">About Us</a>
+			<a href="#">Privacy Policy</a>
+			<a href="#">Terms & Conditions</a>
+			<a href="#">Contact Us</a>
+			<a href="#"></a>
+		</div>
+
+		<div class="col">
+			<h4>Careers</h4>
+			<a href="#">Blog</a>
+			<a href="#">Affiliate</a>
+			<a href="#">Investors</a>
+			<a href="#">Teach on WebWisdom</a>
+			<a href="#">Help and Support</a>
+		</div>
+
+		<div class="col install">
+			<h4>Install App</h4>
+			<p>From App Store or Google Play</p>
+			<br>
+			<br>
+
+			<div class="right-col">
+				<h4 style="color: #fff">Our Newsletter</h4>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			
+		</div>
+
+		<select onchange="changeLanguage(this.value)">
+			<option value="english">English</option>
+			<option value="spanish">Spanish</option>
+			<!-- Add options for other languages as needed -->
+		</select>
+		
+
+		<div class="copyscript">
+			<p>Copyright © 2021 Created By Group6- Ai-B All Rights Reserved.</p>
+		</div>
+
+		
+
+
+
+	</footer>
+
+		</header>
+
+        <script src="course.js"></script>
+        <script src="travel.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="js/swiper-bundle.min.js"></script>
+<script src="js/script2.js"></script>
+
+</body>
+
+</html>

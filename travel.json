@@ -1,0 +1,29 @@
+{
+    "cards": [
+   {
+    "selector": "#card11",
+   "image": "/images/1.jpg",
+   "title": "Data Science",
+   "link": "/more.html",
+   "previewText": "Embark on a transformative journey into the realm of data science with our comprehensive online courses.....",
+   "fullParagraph": "Embark on a transformative journey into the realm of data science with our comprehensive online courses. Delve into the intricacies of data analysis, machine learning, and predictive modeling from the comfort of your home. Our expert-led curriculum offers hands-on experience with industry-standard tools and techniques, empowering you to unlock valuable insights from complex datasets. Join a vibrant community of learners and take your first step towards mastering the skills demanded by today's data-driven world. Enroll today and unleash your potential in the dynamic field of data science."
+   },
+    {
+    "selector": "#card2",
+   "image": "/images/img1.jpg",
+   "title": "Full Stack Development",
+    "link": "/more.html",
+    "previewText": "Embark on a dynamic voyage into full-stack development through our immersive online courses......",
+    "fullParagraph": "Embark on a dynamic voyage into full-stack development through our immersive online courses. Explore the fundamentals of front-end and back-end development, mastering essential languages and frameworks such as HTML, CSS, JavaScript, Node.js, and React. Dive deep into database management, API integration, and deployment strategies, gaining hands-on experience in building robust, scalable web applications. Join a supportive community of learners, collaborate on real-world projects, and emerge ready to tackle the challenges of modern software development. Enroll now and unlock the skills to craft innovative solutions in the ever-evolving world of technology."
+   },
+    {
+    "selector": "#card3",
+    "image": "/images/extra/b3.jpg",
+    "title": "IOS Development",
+    "link": "/more.html",
+    "previewText": "Embark on a transformative journey into iOS development with our cutting-edge online courses.......",
+        "fullParagraph": "Embark on a transformative journey into iOS development with our cutting-edge online courses. Dive into Swift programming language and UIKit framework, mastering the art of creating sleek and intuitive iOS applications. Learn essential concepts like user interface design, app navigation, and data persistence while building real-world projects under the guidance of industry experts. Join a vibrant community of aspiring developers, share insights, and collaborate on innovative solutions. Take the first step towards becoming a proficient iOS developer and make your mark in the thriving world of mobile app development. Enroll today and turn your passion into a rewarding career. "
+    }
+    ]
+    }
+   
